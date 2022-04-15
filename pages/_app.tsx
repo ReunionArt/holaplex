@@ -149,17 +149,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                               {() => (
                                 <AnalyticsProvider>
                                   <AppLayout>
-                                    <div className="w-full items-center justify-center bg-[#005BBB] p-6 text-[#FFD500] sm:flex">
-                                      Help the people of Ukraine through SOL donations.
-                                      <a
-                                        href="https://donate.metaplex.com/"
-                                        className="ml-4 inline items-center justify-center underline transition-transform sm:flex sm:h-10 sm:rounded-full sm:bg-[#FFD500] sm:px-6 sm:text-[#005BBB] sm:no-underline sm:hover:scale-[1.02] sm:hover:text-[#005BBB]"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                      >
-                                        Learn more
-                                      </a>
-                                    </div>
+                                    
                                     <AppHeader />
                                     <AppContent>
                                       <ContentWrapper>
